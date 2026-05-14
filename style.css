@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*  font-family: "Noto Sans Arabic", sans-serif; */
+
+a {
+    text-decoration: none;
+    color: #F7F0F5;
+}
+
+body {
+    background-color: #272322;
+    color: #F7F0F5;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.main {
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.m-item {
+    border: 1px solid #F7F0F5;
+    height: 350px;
+    width: 500px;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+    transition: .2s all;
+}
+
+.m-item:hover {
+    background-color: #F7F0F5;
+    color: #272322;
+    transition: .2s all;
+}
+
+.m-link {
+    text-decoration: none;
+    color: #F7F0F5;
+    font-size: 20px;
+}
+
+.main-azkar {
+    margin: 0 auto;
+    width: 1000px;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
